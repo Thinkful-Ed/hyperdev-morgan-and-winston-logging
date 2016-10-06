@@ -1,2 +1,7 @@
-# hyperdev-morgan-and-winston-logging
-Example of using Winston and Morgan together for logging in Express apps
+Logging with Winston and Morgan
+===============================
+
+Example of how to use Winston and Morgan together.
+
+
+https://github.com/Thinkful-Ed/hyperdev-morgan-and-winston-logging

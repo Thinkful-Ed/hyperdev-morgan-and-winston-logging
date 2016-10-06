@@ -1,0 +1,27 @@
+{
+	"name": "",
+	"version": "0.0.1",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"start": "node --harmony --harmony_destructuring server.js"
+	},
+	"dependencies": {
+		"express": "^4.12.4",
+		"morgan": "^1.7.0",
+		"winston": "^2.2.0"
+	},
+	"engines": {
+		"node": "4.4.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Thinkful-Ed/hyperdev-morgan-and-winston-logging"
+	},
+	"keywords": [
+		"node",
+		"hyperdev",
+		"express"
+	],
+	"license": "MIT"
+}
