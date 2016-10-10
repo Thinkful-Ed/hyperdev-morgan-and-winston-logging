@@ -8,9 +8,9 @@ const winston = require('winston');
 // implementation with Winston.
 
 const consoleOptions = {
-  level: 'warn',
+  level: 'debug',
   handleExceptions: true,
-  json: false,
+  json: true,
   colorize: true
 };
 

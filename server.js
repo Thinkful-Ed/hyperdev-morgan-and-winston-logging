@@ -17,6 +17,12 @@ app.use(bar);
 
 app.get('*', (req, res) => res.send('ok'));
 
+// error handling middleware
+app.use((err, req, res, next) => {
+  logger.error(err);
+  res.status(500).json({error: 'Something went wrong'}).end();
+});
+
 const listener = app.listen(process.env.PORT, function () {
   logger.info('Your app is listening on port ' + listener.address().port);
 });
